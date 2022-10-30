@@ -7,14 +7,26 @@ const Wrapper = styled.div`
     display: flex;
     width: 100%;
     height: 400px;
+    position: relative;
+
+    @media (min-width: 320px) and (max-width: 992px) {
+        display: block;
+        height: fit-content;
+    }
 
     & .project {
+
       width: 33%;
       margin: 30px 10px 20px 0;
       padding: 20px 10px;
       background-color: var(--gray-color);
       border-radius: 5px;
       color: var(--white-color);
+
+      @media (min-width: 320px) and (max-width: 992px) {
+        width: 80%;
+        margin: 20px auto;
+    }
       
       & img {
         margin-bottom: 10px;
@@ -29,6 +41,10 @@ const Wrapper = styled.div`
       & .links_div {
         display: flex;
         margin-top: 55px;
+
+        @media (min-width: 320px) and (max-width: 992px) {
+        justify-content: space-between;
+    }
         & div {
            border: 0.5px solid var(--white-color);
            padding: 10px 30px;
@@ -41,6 +57,9 @@ const Wrapper = styled.div`
         & .site {
             margin-right: 30px;
             background-color: var(--black-color-bg);
+            @media (min-width: 320px) and (max-width: 992px) {
+               margin-right: 0px;
+    }
            }
       }
     }
@@ -83,8 +102,9 @@ function Project() {
             </div>
           </div>
         </div>
-
+        
       </Wrapper>
+      
     </section>
   );
 }
