@@ -120,7 +120,8 @@ function Project() {
             <div
               className="site"
               onClick={() =>
-                (window.location = "https://gorgeous-yeot-0fb8e3.netlify.app/")
+                (window.location =
+                  "https://ak-multisignature-wallet.vercel.app/")
               }
             >
               Site
