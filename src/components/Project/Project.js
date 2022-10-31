@@ -2,6 +2,7 @@ import React from "react";
 import "./Project.css";
 import styled from "styled-components";
 import marketplace from "./../../assets/marketplace.png";
+import multisigwallet from "./../../assets/multisigWallet.png";
 
 const Wrapper = styled.div`
     display: flex;
@@ -102,9 +103,39 @@ function Project() {
             </div>
           </div>
         </div>
-        
+        <div className="project">
+          <img
+            src={multisigwallet}
+            alt="multisigwallet"
+            width="100%"
+            height="150px"
+          />
+          <h4>Multisignature Wallet</h4>
+          <p>
+            A wallet that require two or more private keys to sign and send a
+            transaction.
+          </p>
+
+          <div className="links_div">
+            <div
+              className="site"
+              onClick={() =>
+                (window.location = "https://gorgeous-yeot-0fb8e3.netlify.app/")
+              }
+            >
+              Site
+            </div>
+            <div
+              onClick={() =>
+                (window.location =
+                  "https://github.com/alamin-deriv/ak-multisig-wallet")
+              }
+            >
+              Code
+            </div>
+          </div>
+        </div>
       </Wrapper>
-      
     </section>
   );
 }
