@@ -99,3 +99,14 @@
     background-position: right;
   }
 }
+
+.header-title-box-project {
+  display:block;
+  margin:3rem auto;
+  text-align:center;
+  border-radius: 10px;
+  padding: 1.5rem 3rem;
+  width: 60%;
+  background-color: var(--gray-color);
+  color: var(--white-color);
+}

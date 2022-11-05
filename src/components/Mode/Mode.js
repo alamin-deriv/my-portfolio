@@ -31,7 +31,7 @@ export default function Mode({ handleModeChange, setMode }) {
           <li>
             <a
               target="_blank"
-              href="https://www.canva.com/design/DAFHFFNG0X0/1F0Q3fmlItV1Rju7zqT0Pw/view"
+              href="https://www.canva.com/design/DAE5JCTYN80/kcw9WqHaN0ucNSgPeED64w/view"
               rel="noreferrer"
             >
               <span class="link-decoration">Me</span>

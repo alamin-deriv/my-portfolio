@@ -59,7 +59,7 @@ body {
   color: var(--purple-dark-color);
 }
 
-.white-mode .header-title-box {
+.white-mode .header-title-box .header-title-box-project {
   background-color: var(--white-color-smoke-bg);
   color: var(--black-color);
 }

@@ -3,11 +3,12 @@ import "./Project.css";
 import styled from "styled-components";
 import marketplace from "./../../assets/marketplace.png";
 import multisigwallet from "./../../assets/multisigWallet.png";
+import tokenExchangeApp from "./../../assets/tokenExchangeApp.png";
 
 const Wrapper = styled.div`
     display: flex;
     width: 100%;
-    height: 400px;
+    height: 415px;
     position: relative;
 
     @media (min-width: 320px) and (max-width: 992px) {
@@ -72,7 +73,49 @@ function Project() {
   return (
     <section id="projects" className="container container-project">
       <p className="purple-text">💻 Taka a look at my projects (Web3)</p>
+      <div className="header-title-box-project">
+        These projects are running on the Goerli testnet, You might need a
+        goerli eth to interact with them. Here's where you can get free goerli
+        eth.{" "}
+        <a
+          className="purple-text"
+          target="_blank"
+          href="https://faucetlink.to/goerli"
+          rel="noreferrer"
+        >
+          https://faucetlink.to/goerli
+        </a>
+      </div>
       <Wrapper>
+        <div className="project">
+          <img
+            src={tokenExchangeApp}
+            alt="tokenExchangeApp"
+            width="100%"
+            height="150px"
+          />
+          <h4>Token Exchange</h4>
+          <p>
+            A place where you can exchange ERC20 tokens, deposit and withdraw.
+          </p>
+
+          <div className="links_div">
+            <a
+              target="_blank"
+              href="https://token-exchange-app.vercel.app/"
+              rel="noreferrer"
+            >
+              <div className="site">Site</div>
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/alamin-deriv/token_exchange_app"
+              rel="noreferrer"
+            >
+              <div>Code</div>
+            </a>
+          </div>
+        </div>
         <div className="project">
           <img
             src={marketplace}
@@ -81,26 +124,25 @@ function Project() {
             height="150px"
           />
           <h4>Market Place</h4>
-          <p>A place where you can buy and sell your products...</p>
+          <p>
+            A marketplace where you can buy and sell multiple products......
+          </p>
 
           <div className="links_div">
-            <div
-              className="site"
-              onClick={() =>
-                (window.location =
-                  "https://blockchain-marketplace-nu.vercel.app/")
-              }
+            <a
+              target="_blank"
+              href="https://blockchain-marketplace-nu.vercel.app/"
+              rel="noreferrer"
             >
-              Site
-            </div>
-            <div
-              onClick={() =>
-                (window.location =
-                  "https://github.com/alamin-deriv/blockchain-marketplace")
-              }
+              <div className="site">Site</div>
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/alamin-deriv/blockchain-marketplace"
+              rel="noreferrer"
             >
-              Code
-            </div>
+              <div>Code</div>
+            </a>
           </div>
         </div>
         <div className="project">
@@ -117,23 +159,27 @@ function Project() {
           </p>
 
           <div className="links_div">
-            <div
-              className="site"
-              onClick={() =>
-                (window.location =
-                  "https://ak-multisignature-wallet.vercel.app/")
-              }
+            <a
+              target="_blank"
+              href="https://ak-multisignature-wallet.vercel.app/"
+              rel="noreferrer"
             >
-              Site
-            </div>
-            <div
-              onClick={() =>
-                (window.location =
-                  "https://github.com/alamin-deriv/ak-multisig-wallet")
-              }
+              <div className="site">Site</div>
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/alamin-deriv/ak-multisig-wallet"
+              rel="noreferrer"
             >
-              Code
-            </div>
+              <div
+                onClick={() =>
+                  (window.location =
+                    "https://github.com/alamin-deriv/ak-multisig-wallet")
+                }
+              >
+                Code
+              </div>
+            </a>
           </div>
         </div>
       </Wrapper>
