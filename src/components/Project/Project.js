@@ -72,7 +72,7 @@ const Wrapper = styled.div`
 function Project() {
   return (
     <section id="projects" className="container container-project">
-      <p className="purple-text">💻 Taka a look at my projects (Web3)</p>
+      <p className="purple-text">💻 Take a look at my projects (Web3)</p>
       <div className="header-title-box-project">
         These projects are running on the Goerli testnet, You might need a
         goerli eth to interact with them. Here's where you can get free goerli
@@ -118,35 +118,6 @@ function Project() {
         </div>
         <div className="project">
           <img
-            src={marketplace}
-            alt="marketplace"
-            width="100%"
-            height="150px"
-          />
-          <h4>Market Place</h4>
-          <p>
-            A marketplace where you can buy and sell multiple products......
-          </p>
-
-          <div className="links_div">
-            <a
-              target="_blank"
-              href="https://blockchain-marketplace-nu.vercel.app/"
-              rel="noreferrer"
-            >
-              <div className="site">Site</div>
-            </a>
-            <a
-              target="_blank"
-              href="https://github.com/alamin-deriv/blockchain-marketplace"
-              rel="noreferrer"
-            >
-              <div>Code</div>
-            </a>
-          </div>
-        </div>
-        <div className="project">
-          <img
             src={multisigwallet}
             alt="multisigwallet"
             width="100%"
@@ -179,6 +150,35 @@ function Project() {
               >
                 Code
               </div>
+            </a>
+          </div>
+        </div>
+        <div className="project">
+          <img
+            src={marketplace}
+            alt="marketplace"
+            width="100%"
+            height="150px"
+          />
+          <h4>Market Place</h4>
+          <p>
+            A marketplace where you can buy and sell multiple products......
+          </p>
+
+          <div className="links_div">
+            <a
+              target="_blank"
+              href="https://blockchain-marketplace-nu.vercel.app/"
+              rel="noreferrer"
+            >
+              <div className="site">Site</div>
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/alamin-deriv/blockchain-marketplace"
+              rel="noreferrer"
+            >
+              <div>Code</div>
             </a>
           </div>
         </div>
