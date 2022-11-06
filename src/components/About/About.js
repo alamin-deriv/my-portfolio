@@ -10,16 +10,13 @@ export const About = () => {
         <span className="purple-text">✋ Al-amin Abdulkareem </span>
         <p className="gray-text">
           I am a Software Developer with 5 years of working experience as a
-          front-end developer, I'm currently transitioning into{" "}
-          <b>
-            <span className="purple-text">WEB3 </span>
-          </b>
-          development. Who prefer to work in a fast-paced environment. Extensive
-          development experience at all stages, with strong coding skills and
-          the ability to turn client requirements into exciting online
-          applications. passionate about computer problem solving, and
-          well-versed in data structure and algorithm skills, as well as a
-          variety of programming languages and modern frameworks.
+          front-end developer, I'm currently building on blockchain technology.
+          Who prefer to work in a fast-paced environment. Extensive development
+          experience at all stages, with strong coding skills and the ability to
+          turn client requirements into exciting online applications. passionate
+          about computer problem solving, and well-versed in data structure and
+          algorithm skills, as well as a variety of programming languages and
+          modern frameworks.
         </p>
       </div>
       <ul>
