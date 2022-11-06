@@ -94,7 +94,7 @@ function Project() {
             width="100%"
             height="150px"
           />
-          <h4>Token Exchange</h4>
+          <h4>Token Exchange (Dex)</h4>
           <p>
             A place where you can exchange ERC20 tokens, deposit and withdraw.
           </p>
