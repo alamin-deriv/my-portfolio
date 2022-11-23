@@ -3,7 +3,7 @@ import "./Project.css";
 import styled from "styled-components";
 import marketplace from "./../../assets/marketplace.png";
 import multisigwallet from "./../../assets/multisigWallet.png";
-import tokenExchangeApp from "./../../assets/tokenExchangeApp.png";
+import tokenExchangeApp from "./../../assets/naija-exchange.png";
 
 const Wrapper = styled.div`
     display: flex;
@@ -94,7 +94,7 @@ function Project() {
             width="100%"
             height="150px"
           />
-          <h4>Token Exchange (Dex)</h4>
+          <h4>Naija Token Exchange</h4>
           <p>
             A place where you can exchange ERC20 tokens, deposit and withdraw.
           </p>
@@ -102,14 +102,14 @@ function Project() {
           <div className="links_div">
             <a
               target="_blank"
-              href="https://token-exchange-app.vercel.app/"
+              href="https://naija-token-exchange.vercel.app/"
               rel="noreferrer"
             >
               <div className="site">Site</div>
             </a>
             <a
               target="_blank"
-              href="https://github.com/alamin-deriv/token_exchange_app"
+              href="https://github.com/alamin-deriv/naija-token-exchange"
               rel="noreferrer"
             >
               <div>Code</div>
